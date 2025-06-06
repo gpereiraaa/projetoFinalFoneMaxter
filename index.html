@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="./style.css">
     <title>Fone Maxter</title>
 </head>
-<body class="bg-neutral-900 p-15">
-    <div class="absolute top-0 right-0 -z-1">
-        <img src ="./img/background-fundo.svg" alt="">
+<body class="bg-neutral-900 p-16">
+    <div class="imagem-fundo absolute top-0 right-0 -z-1">
+        <img src ="./img/background-fundo.svg" alt="imagem de fone que fica de fundo">
     </div>
-    <header class="flex justify-between">
-        <img class="logo-empresa" src="./img/logo_empresa.svg" alt="">
-        <div class="caixa-pesquisa bg-black text-zinc-600 p-4 flex rounded-full items-center gap-3 w-250">
+    <header class="flex gap-12">
+        <img class="logo-empresa" src="./img/logo_empresa.svg" alt="logo do site">
+        <div class="caixa-pesquisa bg-black text-zinc-600 p-4 flex rounded-full items-center gap-3 w-170">
             <i class="fas fa-search"></i>
             <p>Suche</p>
         </div>
@@ -25,9 +25,9 @@
             <img src="./img/icon_hamburguer.svg" alt="">
         </div>
     </header>
-    <main class="flex">
-        <div class="container-esquerda bg-red-50">
-            <h2 class="text-white font-bold text-6xl" >MAXTER 7.1 SURROUND</h2>
+    <main class="flex ">
+        <div class="container-esquerda grow-1">
+            <h2 class="text-white font-bold text-6xl " >MAXTER 7.1 SURROUND</h2>
             <div class="avaliacao flex gap-2 flex-wrap items-center">
                 <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
                 <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
@@ -36,9 +36,59 @@
                 <img src="./img/icon-avaliacao-metade.svg" alt="Icone de estrela de avaliação">
                 <span class="text-zinc-600" >(11.893 Bewertungen)</span>
             </div>
-        </div>
-        <div class="container-direita bg-white">
+            <div class="area-compra">
+                <span class="text-white" >Bester 7.1-Surround-Sound und tiefe Bässe ganz ohne große Anlage - das MAXTER 7.1 Surround USB Gaming Headset für den PC macht es möglich.</span>
+                <h3 class="text-red-800 font-semibold text-6xl" >79,99€ </h3>
+                <span class="text-white" >129,99€</span>
 
+                <div class="botoes flex gap-3 ">
+                    <button class="botao-compra flex bg-red-800 text-white gap-5 p-4 items-center" >
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>JETZT KAUFEN</span>
+                </button>
+                <button class="botao-adicionar flex gap-5 p-3 border-red-800 border-2 text-red-800 bg-transparent items-center" >
+                    <span>-</span>
+                    <span>1</span>
+                    <span>+</span>
+                </button>
+                </div>
+                
+                <div class="favoritar text-white">
+                    <a href="#">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>Auf die Wunschliste</span>
+                    </a>
+                    
+                </div>
+            </div>
+                
+            <div class="navegar  text-zinc-600 text-xl font-bold">
+                <li>
+                        <a href="#">Highlights</a>
+                    </li>
+                    <li class="text-white">
+                        <a href="#">Technische Details</a>
+                    </li>
+                    <li>
+                        <a href="#">Kompatibilität</a>
+                    </li> 
+                    <li>
+                        <a href="#">Downloads</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Kontakt</a>
+                    </li>
+            </div>
+
+
+
+            
+        </div>
+        <div class="container-direita grow-1">
+            <img src="./img/headset.png" alt="imagem do headset">
         </div>
     
         
