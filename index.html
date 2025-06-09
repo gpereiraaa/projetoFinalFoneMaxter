@@ -9,16 +9,16 @@
     <title>Fone Maxter</title>
 </head>
 <body class="bg-neutral-900 p-16">
-    <div class="imagem-fundo absolute top-0 right-0 -z-1">
+    <div class="imagem-fundo fixed top-0 right-0 -z-1">
         <img src ="./img/background-fundo.svg" alt="imagem de fone que fica de fundo">
     </div>
     <header class="flex gap-12">
         <img class="logo-empresa" src="./img/logo_empresa.svg" alt="logo do site">
-        <div class="caixa-pesquisa bg-black text-zinc-600 p-4 flex rounded-full items-center gap-3 w-170">
+        <div class="caixa-pesquisa bg-black text-zinc-600 p-4 flex rounded-full items-center gap-3 w-full">
             <i class="fas fa-search"></i>
             <p>Suche</p>
         </div>
-        <div class="icons flex gap-5">
+        <div class="icones flex gap-5 ">
             <img src="./img/icon_user.svg" alt="">
             <img src="./img/icon_coracao.svg" alt="">
             <img src="./img/icon_carrinho.svg" alt="">
@@ -28,7 +28,7 @@
     <main class="flex ">
         <div class="container-esquerda grow-1 flex flex-col justify-evenly ">
             <div class="titulo">
-                <h2 class="text-white font-bold text-6xl mt-12" >MAXTER 7.1 SURROUND</h2>
+                <h2 class="text-white font-bold text-6xl mt-12 inline-block border-b-10 border-red-800" >MAXTER 7.1 SURROUND</h2>
                 <div class="avaliacao flex gap-2 flex-wrap items-center">
                     <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
                     <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
@@ -41,9 +41,8 @@
             </div>
             
             <div class="area-compra">
-                <h3 class="text-red-800 font-semibold text-6xl" >79,99€ </h3>
-                <span class="text-white" >129,99€</span>
-
+                <h3 class="text-red-800 font-bold text-6xl" >79,99€ </h3>
+                <span class="text-white font-medium text-2xl" >129,99€</span>
                 <div class="botoes flex gap-3 ">
                     <button class="botao-compra flex bg-red-800 text-white gap-5 p-4 items-center" >
                     <i class="fa-solid fa-cart-shopping"></i>
@@ -56,8 +55,8 @@
                 </button>
                 </div>
                 
-                <div class="favoritar text-white">
-                    <a href="#">
+                <div class="favoritar text-white transition duration-500 ">
+                    <a class="hover:border-b-2 hover:border-white" href="#">
                         <i class="fa-solid fa-heart"></i>
                         <span>Auf die Wunschliste</span>
                     </a>
@@ -66,23 +65,23 @@
             </div>
                 
             <div class="navegar  text-zinc-600 text-xl font-bold">
-                <li>
-                        <a href="#">Highlights</a>
+                    <li class="transition duration-500 hover:text-white">
+                        <a class="hover:border-b-4 hover:border-red-800" href="#">Highlights</a>
                     </li>
-                    <li class="text-white">
-                        <a href="#">Technische Details</a>
+                    <li class="transition duration-500 hover:text-white">
+                        <a class="hover:border-b-4 hover:border-red-800" href="#">Technische Details</a>
                     </li>
-                    <li>
-                        <a href="#">Kompatibilität</a>
+                    <li class="transition duration-500 hover:text-white">
+                        <a class="hover:border-b-4 hover:border-red-800" href="#">Kompatibilität</a>
                     </li> 
-                    <li>
-                        <a href="#">Downloads</a>
+                    <li class="transition duration-500 hover:text-white">
+                        <a class="hover:border-b-4 hover:border-red-800" href="#">Downloads</a>
                     </li>
-                    <li>
-                        <a href="#">FAQ</a>
+                    <li class="transition duration-500 hover:text-white">
+                        <a class="hover:border-b-4 hover:border-red-800" href="#">FAQ</a>
                     </li>
-                    <li>
-                        <a href="#">Kontakt</a>
+                    <li class="transition duration-500 hover:text-white" >
+                        <a class="hover:border-b-4 hover:border-red-800" href="#">Kontakt</a>
                     </li>
             </div>
 
