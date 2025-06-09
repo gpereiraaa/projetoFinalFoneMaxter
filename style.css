@@ -6,6 +6,7 @@ ul,ol,li{
     list-style: none;
 }
 
+/*
 @media (max-width: 1024px) {
     .imagem-fundo{
         display: none;
@@ -13,4 +14,4 @@ ul,ol,li{
     .texto-informativo{
         display: none;
     }
-}
+}*/

@@ -9,26 +9,38 @@
     <title>Fone Maxter</title>
 </head>
 <body class="bg-neutral-900 p-16">
-    <div class="imagem-fundo fixed top-0 right-0 -z-1">
+    <div class="imagem-fundo fixed top-0 right-0 -z-10 hidden lg:block">
         <img src ="./img/background-fundo.svg" alt="imagem de fone que fica de fundo">
     </div>
-    <header class="flex gap-12">
+    <header class="flex w-full justify-between items-center gap-6">
         <img class="logo-empresa" src="./img/logo_empresa.svg" alt="logo do site">
-        <div class="caixa-pesquisa bg-black text-zinc-600 p-4 flex rounded-full items-center gap-3 w-full">
+        <div class="caixa-pesquisa bg-black text-zinc-600 p-4 flex rounded-full items-center gap-3 flex-1">
             <i class="fas fa-search"></i>
             <p>Suche</p>
         </div>
         <div class="icones flex gap-5 ">
             <img src="./img/icon_user.svg" alt="">
             <img src="./img/icon_coracao.svg" alt="">
-            <img src="./img/icon_carrinho.svg" alt="">
             <img src="./img/icon_hamburguer.svg" alt="">
         </div>
     </header>
-    <main class="flex ">
-        <div class="container-esquerda grow-1 flex flex-col justify-evenly ">
-            <div class="titulo">
-                <h2 class="text-white font-bold text-6xl mt-12 inline-block border-b-10 border-red-800" >MAXTER 7.1 SURROUND</h2>
+    <main class="flex flex-col lg:flex-row">
+
+
+
+        
+        <h2 class="text-white font-bold text-6xl mt-12 border-b-10 inline-block border-red-800 lg:hidden" >MAXTER 7.1 SURROUND</h2>
+        <div class="avaliacao flex gap-2 flex-wrap items-center lg:hidden">
+            <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
+            <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
+            <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
+            <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
+            <img src="./img/icon-avaliacao-metade.svg" alt="Icone de estrela de avaliação">
+            <span class="text-zinc-600" >(11.893 Bewertungen)</span>
+        </div>
+        <div class="container-esquerda grow-1 flex flex-row justify-between order-2 lg:flex-col lg:order-1 lg:justify-evenly">
+            <div class="titulo hidden lg:block">
+                <h2 class="text-white font-bold text-6xl mt-12 border-b-10 inline-block border-red-800" >MAXTER 7.1 SURROUND</h2>
                 <div class="avaliacao flex gap-2 flex-wrap items-center">
                     <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
                     <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
@@ -37,7 +49,7 @@
                     <img src="./img/icon-avaliacao-metade.svg" alt="Icone de estrela de avaliação">
                     <span class="text-zinc-600" >(11.893 Bewertungen)</span>
                 </div>
-                <span class="texto-informativo text-white" >Bester 7.1-Surround-Sound und tiefe Bässe ganz ohne große Anlage - das MAXTER 7.1 Surround USB Gaming Headset für den PC macht es möglich.</span>
+                <span class="texto-informativo text-white hidden lg:block" >Bester 7.1-Surround-Sound und tiefe Bässe ganz ohne große Anlage - das MAXTER 7.1 Surround USB Gaming Headset für den PC macht es möglich.</span>
             </div>
             
             <div class="area-compra">
@@ -64,8 +76,8 @@
                 </div>
             </div>
                 
-            <div class="navegar  text-zinc-600 text-xl font-bold">
-                    <li class="transition duration-500 hover:text-white">
+            <div class="navegar  text-zinc-600 text-xl font-bold hidden md:block">
+                    <li class="transition duration-500 hover:text-white ">
                         <a class="hover:border-b-4 hover:border-red-800" href="#">Highlights</a>
                     </li>
                     <li class="transition duration-500 hover:text-white">
@@ -89,7 +101,7 @@
 
             
         </div>
-        <div class="container-direita grow-1">
+        <div class="container-direita grow-1 order-1 :order-2">
             <img src="./img/headset.png" alt="imagem do headset">
         </div>
     
