@@ -1,47 +1,48 @@
+# 🎧 Projeto Final - Fone Maxter
 
-# Projeto final LIMA - Fone Maxter
+## Sobre o Projeto
 
-## Descrição do Projeto
+Este projeto é uma landing page desenvolvida para apresentar o **Fone MAXTER 7.1 Surround**, um headset com som imersivo e design moderno. A proposta foi criar uma página **100% responsiva**, que se adapta perfeitamente a **desktops, tablets e celulares**, garantindo uma boa experiência em qualquer dispositivo.
 
-Este projeto consiste na criação de uma landing page para o produto **MAXTER 7.1 Surround** utilizando **HTML5** e **Tailwind CSS**. O objetivo principal foi desenvolver um site **totalmente responsivo** que ofereça uma experiência fluida e adaptada para três tipos de dispositivos: **desktop, tablet e mobile**.
+O layout para desktop foi fornecido pela equipe do cliente, enquanto as versões para tablet e mobile foram prototipadas por mim no Figma, respeitando a identidade visual original, mas reorganizando os elementos para facilitar a navegação em telas menores.
 
-O layout desktop foi fornecido pela equipe do cliente, e foi criado um protótipo no Figma para as versões tablet e mobile, garantindo adaptação adequada dos elementos e hierarquia visual para diferentes tamanhos de tela.
-
-O site está hospedado no **GitHub Pages** para acesso público.
-
----
-
-## Protótipos no Figma
-
-Os layouts para tablet e mobile foram prototipados no Figma com foco em:
-
-- Manutenção da identidade visual e hierarquia do design desktop.
-- Reorganização dos elementos para facilitar a navegação e leitura em telas menores.
-- Garantia de acessibilidade e usabilidade em dispositivos touch.
-
-**Link para o protótipo no Figma:**  
-[Figma](https://www.figma.com/design/4v4zjjowtP5L1DgBVAOSEM/atividade-LIMA-Final?node-id=0-1&t=IOKcXDhtVmqsEEdH-1)  
+A página está publicada no **GitHub Pages**, e você pode acessá-la facilmente clicando [Aqui](https://gpereiraaa.github.io/projetoFinalFoneMaxter/).
 
 ---
 
-## Tecnologias Utilizadas
+## 🧩 Protótipos no Figma
 
-- **HTML5** — marcação semântica para estrutura do conteúdo.
-- **Tailwind CSS** — framework CSS utilitário para estilização e responsividade rápida.
-- **Font Awesome** — para ícones visuais (carrinho, coração, usuário, etc.).
-- **GitHub Pages** — hospedagem gratuita para publicar o site online.
-- **Figma** — para prototipagem dos layouts responsivos.
+Criei os protótipos para dispositivos móveis com os seguintes cuidados:
+
+- Manter o visual e o estilo definidos pelo cliente.
+- Adaptar o conteúdo para leitura e uso em telas menores.
+- Garantir que o site fosse acessível e funcional em dispositivos touch.
+
+👉 [Acesse o protótipo no Figma](https://www.figma.com/design/4v4zjjowtP5L1DgBVAOSEM/atividade-LIMA-Final?node-id=0-1&t=IOKcXDhtVmqsEEdH-1)
 
 ---
 
-## Estrutura do Projeto
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5** – Estrutura semântica do conteúdo.
+- **Tailwind CSS** – Estilização rápida e responsiva com classes utilitárias.
+- **Font Awesome** – Ícones visuais como carrinho, coração, usuário, entre outros.
+- **Figma** – Criação dos protótipos responsivos.
+- **GitHub Pages** – Hospedagem gratuita para o projeto ficar online.
+
+---
+
+## 🗂️ Estrutura do Projeto
 
 ```
 fone-maxter/
-├── index.html          # Página principal com estrutura e conteúdo
-├── style.css           # Estilos personalizados adicionais (se houver)
-├── README.md           # Documentação do projeto
-└── img/                # Imagens usadas no projeto (logo, produtos, ícones)
+├── index.html          # Página principal
+├── style.css           # Pequeno detalhe
+├── README.md           # Este arquivo :)
+└── img/                # Imagens utilizadas no site
+    ├── img-mobile.png
+    ├── img-tablet.png
+    ├── img-desktop
     ├── logo_empresa.svg
     ├── background-fundo.svg
     ├── headset.png
@@ -55,47 +56,42 @@ fone-maxter/
 
 ---
 
-## Screenshots
+## 🖼️ Alguns exemplos do site
 
-### Desktop
-![Desktop](./img/img-desktop.png)
+### 💻 Versão Desktop
+![Versão Desktop](./img/img-desktop.png)
 
-### Tablet
-![Tablet](./img/img-tablet.png)
+### 📱 Versão Tablet
+![Versão Tablet](./img/img-tablet.png)
 
-### Mobile
-![Mobile](./img/img-mobile.png)
-
-
----
-
-## Link do Site Publicado
-
-O site está publicado e acessível via GitHub Pages neste link:  
-[Site Fone Maxter](https://gpereiraaa.github.io/projetoFinalFoneMaxter/)
+### 📲 Versão Mobile
+![Versão Mobile](./img/img-mobile.png)
 
 ---
 
-## Considerações Finais
+## 🔗 Acesse o site facilmente
 
-Este projeto demonstra habilidades em:
-
-- Desenvolvimento front-end responsivo com Tailwind CSS.
-- Adaptação e prototipagem de layouts para diferentes dispositivos no Figma.
-- Documentação clara e objetiva.
-- Publicação e versionamento de código via GitHub e GitHub Pages.
+O projeto está online!  
+👉 [Clique aqui para visitar a página](https://gpereiraaa.github.io/projetoFinalFoneMaxter/)
 
 ---
 
-## Autor
+## ✍️ Considerações Finais
 
-**Gustavo Pereira Leite da Silva**  
-Desenvolvedor Front-End 
+Esse projeto foi uma ótima oportunidade para colocar em prática meus conhecimentos de **desenvolvimento web**, principalmente no uso da biblioteca **Tailwind CSS** para substituir o CSS. Também trabalhei com **Figma** para criar layouts adaptáveis e garantir que a experiência do usuário fosse consistente em qualquer dispositivo.
 
-📧 guga20.leite@gmail.com 
+Além disso, utilizei o **GitHub** tanto para versionar o código quanto para publicar o site, o que mostra o cuidado em manter um fluxo de trabalho completo e organizado.
 
-🌐 [LinkedIn](www.linkedin.com/in/gustavo-pereira-dev-redes)
+---
+
+## 👨‍💻 Sobre mim
+
+Desenvolvido por **Gustavo Pereira Leite da Silva**  
+Técnico em Redes de computadores
+Estudante de Desenvolvimento de sistemas
+
+📧 E-mail: guga20.leite@gmail.com  
+
+🌐 [LinkedIn](https://www.linkedin.com/in/gustavo-pereira-dev-redes/)  
 
 🌐 [GitHub](https://github.com/gpereiraaa)
-
----
