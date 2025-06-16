@@ -5,13 +5,3 @@ a{
 ul,ol,li{
     list-style: none;
 }
-
-/*
-@media (max-width: 1024px) {
-    .imagem-fundo{
-        display: none;
-    }
-    .texto-informativo{
-        display: none;
-    }
-}*/
