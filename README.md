@@ -20,8 +20,7 @@ Os layouts para tablet e mobile foram prototipados no Figma com foco em:
 - Garantia de acessibilidade e usabilidade em dispositivos touch.
 
 **Link para o protótipo no Figma:**  
-[https://www.figma.com/file/SEU_LINK_AQUI](https://www.figma.com/file/SEU_LINK_AQUI)  
-*(Certifique-se de compartilhar o protótipo com permissão de visualização pública)*
+[Figma](https://www.figma.com/design/4v4zjjowtP5L1DgBVAOSEM/atividade-LIMA-Final?node-id=0-1&t=IOKcXDhtVmqsEEdH-1)  
 
 ---
 
@@ -32,24 +31,6 @@ Os layouts para tablet e mobile foram prototipados no Figma com foco em:
 - **Font Awesome** — para ícones visuais (carrinho, coração, usuário, etc.).
 - **GitHub Pages** — hospedagem gratuita para publicar o site online.
 - **Figma** — para prototipagem dos layouts responsivos.
-
----
-
-## Como Executar o Projeto Localmente
-
-1. Faça o clone do repositório:
-   ```bash
-   git clone https://github.com/seuusuario/fone-maxter.git
-   ```
-
-2. Acesse a pasta do projeto:
-   ```bash
-   cd fone-maxter
-   ```
-
-3. Abra o arquivo `index.html` no seu navegador preferido (Google Chrome, Firefox, Edge, etc.).
-
-> Não é necessário instalar dependências ou rodar servidores locais, pois o projeto é estático.
 
 ---
 
@@ -77,22 +58,21 @@ fone-maxter/
 ## Screenshots
 
 ### Desktop
-![Desktop](./img/screenshot-desktop.png)
+![Desktop](./img/img-desktop.png)
 
 ### Tablet
-![Tablet](./img/screenshot-tablet.png)
+![Tablet](./img/img-tablet.png)
 
 ### Mobile
-![Mobile](./img/screenshot-mobile.png)
+![Mobile](./img/img-mobile.png)
 
-*(Substitua os arquivos das imagens pelos seus prints reais)*
 
 ---
 
 ## Link do Site Publicado
 
 O site está publicado e acessível via GitHub Pages neste link:  
-[https://seuusuario.github.io/fone-maxter/](https://seuusuario.github.io/fone-maxter/)
+[gpereiraaa.github.io/projetoFinalFoneMaxter/](gpereiraaa.github.io/projetoFinalFoneMaxter/)
 
 ---
 
@@ -110,8 +90,9 @@ Este projeto demonstra habilidades em:
 ## Autor
 
 **Gustavo Pereira Leite da Silva**  
-Desenvolvedor Front-End Júnior  
-📧 seu.email@exemplo.com  
-🌐 [LinkedIn](https://linkedin.com/in/seunome) | [Portfólio](https://seuportfolio.com)
+Desenvolvedor Front-End 
+📧 guga20.leite@gmail.com  
+🌐 [LinkedIn](www.linkedin.com/in/gustavo-pereira-dev-redes)
+🌐 [GitHub] (https://github.com/gpereiraaa)
 
 ---
