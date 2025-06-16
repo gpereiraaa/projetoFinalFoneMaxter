@@ -6,7 +6,7 @@ Este projeto é uma landing page desenvolvida para apresentar o **Fone MAXTER 7.
 
 O layout para desktop foi fornecido pela equipe do cliente, enquanto as versões para tablet e mobile foram prototipadas por mim no Figma, respeitando a identidade visual original, mas reorganizando os elementos para facilitar a navegação em telas menores.
 
-A página está publicada no **GitHub Pages**, e você pode acessá-la facilmente clicando [Aqui](https://gpereiraaa.github.io/projetoFinalFoneMaxter/).
+A página está publicada no **GitHub Pages**, e você pode acessá-la facilmente clicando [aqui](https://gpereiraaa.github.io/projetoFinalFoneMaxter/).
 
 ---
 
@@ -87,7 +87,9 @@ Além disso, utilizei o **GitHub** tanto para versionar o código quanto para pu
 ## 👨‍💻 Sobre mim
 
 Desenvolvido por **Gustavo Pereira Leite da Silva**  
+
 Técnico em Redes de computadores
+
 Estudante de Desenvolvimento de sistemas
 
 📧 E-mail: guga20.leite@gmail.com  
