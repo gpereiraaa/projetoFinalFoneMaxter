@@ -1,5 +1,5 @@
 
-# Projeto Responsivo - Fone Maxter
+# Projeto final LIMA - Fone Maxter
 
 ## Descrição do Projeto
 
@@ -72,7 +72,7 @@ fone-maxter/
 ## Link do Site Publicado
 
 O site está publicado e acessível via GitHub Pages neste link:  
-[gpereiraaa.github.io/projetoFinalFoneMaxter/](gpereiraaa.github.io/projetoFinalFoneMaxter/)
+[Site Fone Maxter](gpereiraaa.github.io/projetoFinalFoneMaxter/)
 
 ---
 
@@ -91,8 +91,8 @@ Este projeto demonstra habilidades em:
 
 **Gustavo Pereira Leite da Silva**  
 Desenvolvedor Front-End 
-📧 guga20.leite@gmail.com  
+📧 guga20.leite@gmail.com 
 🌐 [LinkedIn](www.linkedin.com/in/gustavo-pereira-dev-redes)
-🌐 [GitHub] (https://github.com/gpereiraaa)
+🌐 [GitHub](https://github.com/gpereiraaa)
 
 ---
