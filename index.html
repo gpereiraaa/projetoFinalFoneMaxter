@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,53 +9,63 @@
     <link rel="stylesheet" href="./style.css">
     <title>Fone Maxter</title>
 </head>
+
 <body class="bg-neutral-900 p-16">
     <div class="imagem-fundo fixed top-0 right-0 -z-10 hidden lg:block">
-        <img src ="./img/background-fundo.svg" alt="imagem de fone que fica de fundo">
+        <img src="./img/background-fundo.svg" alt="imagem de fone que fica de fundo">
     </div>
-    <header class="flex w-full justify-between items-center gap-6">
-        <img class="logo-empresa" src="./img/logo_empresa.svg" alt="logo do site">
-        <div class="caixa-pesquisa bg-black text-zinc-600 p-4 flex rounded-full items-center gap-3 flex-1 ">
+
+    <header class="flex w-full justify-between items-center gap-6 flex-col md:flex-row">
+
+        <img class="logo-empresa order-1" src="./img/logo_empresa.svg" alt="logo do site">
+
+        <div
+            class="caixa-pesquisa bg-black text-zinc-600 p-4 flex rounded-full items-center gap-3 flex-1 order-3 md:order-2 w-full md:w-auto">
             <i class="fas fa-search"></i>
             <p>Suche</p>
         </div>
-        <div class="icones flex gap-5 ">
+
+        <div class="icones flex gap-5 order-2 md:order-3">
             <img src="./img/icon_user.svg" alt="">
             <img src="./img/icon_coracao.svg" alt="">
+            <img src="./img/icon_carrinho.svg" alt="">
             <img src="./img/icon_hamburguer.svg" alt="">
         </div>
+
     </header>
+
     <main class="flex flex-col lg:flex-row">
         <div class="container-esquerda grow-1 flex flex-col justify-evenly order-2 lg:order-1">
             <div class="titulo">
-                <h2 class="text-white font-bold text-6xl mt-12 border-b-10 inline-block border-red-800" >MAXTER 7.1 SURROUND</h2>
+                <h2 class="text-white font-bold text-6xl mt-12 border-b-10 inline-block border-red-800">MAXTER 7.1 SURROUND</h2>
                 <div class="avaliacao gap-2 flex-wrap items-center hidden md:flex">
                     <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
                     <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
                     <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
                     <img src="./img/icon-avaliacao.svg" alt="Icone de estrela de avaliação">
                     <img src="./img/icon-avaliacao-metade.svg" alt="Icone de estrela de avaliação">
-                    <span class="text-zinc-600" >(11.893 Bewertungen)</span>
+                    <span class="text-zinc-600">(11.893 Bewertungen)</span>
                 </div>
-                <span class="texto-informativo text-white hidden lg:block" >Bester 7.1-Surround-Sound und tiefe Bässe ganz ohne große Anlage - das MAXTER 7.1 Surround USB Gaming Headset für den PC macht es möglich.</span>
+                <span class="texto-informativo text-white hidden lg:block">Bester 7.1-Surround-Sound und tiefe Bässe ganz ohne große Anlage - das MAXTER 7.1 Surround USB Gaming Headset für den PC macht es möglich.</span>
             </div>
-            
-            <div class="teste flex flex-row lg:flex-col">
+
+            <div class="secao-compra flex flex-row lg:flex-col">
                 <div class="area-compra grow-1">
-                    <h3 class="text-red-800 font-bold text-6xl" >79,99€ </h3>
-                    <span class="text-white font-medium text-2xl" >129,99€</span>
+                    <h3 class="text-red-800 font-bold text-6xl">79,99€ </h3>
+                    <span class="text-white font-medium text-2xl">129,99€</span>
                     <div class="botoes flex gap-3 ">
-                        <button class="botao-compra flex bg-red-800 text-white gap-5 p-4 items-center" >
+                        <button class="botao-compra flex bg-red-800 text-white gap-5 p-4 items-center">
                             <i class="fa-solid fa-cart-shopping"></i>
                             <span>JETZT KAUFEN</span>
                         </button>
-                        <button class="botao-adicionar flex gap-5 p-3 border-red-800 border-2 text-red-800 bg-transparent items-center" >
+                        <button
+                            class="botao-adicionar flex gap-5 p-3 border-red-800 border-2 text-red-800 bg-transparent items-center">
                             <span>-</span>
                             <span>1</span>
                             <span>+</span>
                         </button>
                     </div>
-                
+
                     <div class="favoritar text-white transition duration-500 hidden md:block">
                         <a class="hover:border-b-2 hover:border-white" href="#">
                             <i class="fa-solid fa-heart"></i>
@@ -63,30 +74,31 @@
                     </div>
                 </div>
                 <div class="navegar  text-zinc-600 text-xl font-bold hidden md:block grow-1">
-                        <li class="transition duration-500 hover:text-white ">
-                            <a class="hover:border-b-4 hover:border-red-800" href="#">Highlights</a>
-                        </li>
-                        <li class="transition duration-500 hover:text-white">
-                            <a class="hover:border-b-4 hover:border-red-800" href="#">Technische Details</a>
-                        </li>
-                        <li class="transition duration-500 hover:text-white">
-                            <a class="hover:border-b-4 hover:border-red-800" href="#">Kompatibilität</a>
-                        </li> 
-                        <li class="transition duration-500 hover:text-white">
-                            <a class="hover:border-b-4 hover:border-red-800" href="#">Downloads</a>
-                        </li>
-                        <li class="transition duration-500 hover:text-white">
-                            <a class="hover:border-b-4 hover:border-red-800" href="#">FAQ</a>
-                        </li>
-                        <li class="transition duration-500 hover:text-white" >
-                            <a class="hover:border-b-4 hover:border-red-800" href="#">Kontakt</a>
-                        </li>
+                    <li class="transition duration-500 hover:text-white ">
+                        <a class="hover:border-b-4 hover:border-red-800" href="#">Highlights</a>
+                    </li>
+                    <li class="transition duration-500 hover:text-white">
+                        <a class="hover:border-b-4 hover:border-red-800" href="#">Technische Details</a>
+                    </li>
+                    <li class="transition duration-500 hover:text-white">
+                        <a class="hover:border-b-4 hover:border-red-800" href="#">Kompatibilität</a>
+                    </li>
+                    <li class="transition duration-500 hover:text-white">
+                        <a class="hover:border-b-4 hover:border-red-800" href="#">Downloads</a>
+                    </li>
+                    <li class="transition duration-500 hover:text-white">
+                        <a class="hover:border-b-4 hover:border-red-800" href="#">FAQ</a>
+                    </li>
+                    <li class="transition duration-500 hover:text-white">
+                        <a class="hover:border-b-4 hover:border-red-800" href="#">Kontakt</a>
+                    </li>
                 </div>
-            </div>                        
+            </div>
         </div>
         <div class="container-direita grow-1 order-1 lg:order-2 ">
             <img src="./img/headset.png" alt="imagem do headset">
         </div>
     </main>
 </body>
+
 </html>
