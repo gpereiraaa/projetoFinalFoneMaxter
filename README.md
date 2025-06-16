@@ -72,7 +72,7 @@ fone-maxter/
 ## Link do Site Publicado
 
 O site está publicado e acessível via GitHub Pages neste link:  
-[Site Fone Maxter](gpereiraaa.github.io/projetoFinalFoneMaxter/)
+[Site Fone Maxter](https://gpereiraaa.github.io/projetoFinalFoneMaxter/)
 
 ---
 
@@ -91,8 +91,11 @@ Este projeto demonstra habilidades em:
 
 **Gustavo Pereira Leite da Silva**  
 Desenvolvedor Front-End 
+
 📧 guga20.leite@gmail.com 
+
 🌐 [LinkedIn](www.linkedin.com/in/gustavo-pereira-dev-redes)
+
 🌐 [GitHub](https://github.com/gpereiraaa)
 
 ---
